@@ -16,7 +16,7 @@
             <hr>
             <nav id="links">
                 <a href="#">Ínicio</a>
-                <a href="#">Projetos</a>
+                <a href="#">Usuários</a>
                 <a href="#">Relatórios</a>
                 <a href="#">Configurações</a>
             </nav>
@@ -26,7 +26,7 @@
                 <div class="caixa">
                     <h1>Módulo de usuários</h1>
                     <p>Gerencie os acessos e permissões do sistema nessa área</p>
-                    <a href="#">Acessar</a>
+                    <a href="usuarios.php">Acessar</a>
                 </div>
                 <div class="caixa">
                     <h1>Relatórios de vendas</h1>
