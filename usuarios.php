@@ -7,16 +7,12 @@
     <script src="https://kit.fontawesome.com/52ff4c741b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <style>
-        main{
-            align-self: center;
-        }
-
         h1{
             padding: 20px;
         }
 
         main{
-            margin: 10px;
+            margin: 20px;
         }
         
         section{
@@ -26,6 +22,7 @@
             padding: 10px;
             border-radius: 15px;
             color: #2c3e50;
+            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.219);
         }
 
         form{
@@ -50,7 +47,7 @@
             border: 1px solid rgb(144, 150, 156);
             margin: 5px 0px;
         }
-
+        
         .esp-btn{
             background-color: #537597;
             color: white;
@@ -95,7 +92,7 @@
             <section>
                 <h1><i class="fa-solid fa-user-plus"></i> Cadastro de usuário</h1>
                 <p>Preencha os dados para realizar um novo acesso</p>
-                <form action="#">
+                <form action="#" method="POST">
                     <div class="space">
                         <label for="inome">Nome completo</label>
                         <input type="text" name="nome" id="inome" placeholder="Digite o nome completo">
@@ -112,7 +109,7 @@
                     </div>
 
                     <div class="space">
-                        <input type="submit" value="Enviar" class="esp-btn">
+                        <input type="submit" value="Salvar" class="esp-btn">
                         <input type="reset" value="Limpar" class="esp-btn">
                     </div>
                 </form>

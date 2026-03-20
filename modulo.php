@@ -20,6 +20,7 @@
             border-radius: 5px;
             margin: 10px;
             overflow: hidden;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.219);
         }
 
         table{
@@ -30,6 +31,10 @@
         thead{
             background-color: #2e3e50;
             color: white;
+        }
+
+        tr:nth-child(even){
+            background-color: #e6e6e6;
         }
 
         td, th{
@@ -80,10 +85,18 @@
                             <td>Pedro Giacciani</td>
                             <td>giaccianipedro@gmail.com</td>
                             <td>Administrador</td>
-                            <td>Ativo</td>
+                            <td >Ativo</td>
                             <td><button><i class="fa-solid fa-pen"></i></button></td>
                         </tr>
                         <tr>
+                            <td>002</td>
+                            <td>Eric Freitas</td>
+                            <td>eric@unifev.edu</td>
+                            <td>Usuário</td>
+                            <td>Ativo</td>
+                            <td><button><i class="fa-solid fa-pen"></i></button></td>
+                        </tr>
+                            <tr>
                             <td>002</td>
                             <td>Eric Freitas</td>
                             <td>eric@unifev.edu</td>
