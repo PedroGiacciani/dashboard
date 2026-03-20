@@ -1,0 +1,1 @@
+<p>&copy; <?php echo date('Y');?> - Desenvolvido na aula de programação pra web I por <a href="https://github.com/pedrogiacciani" target="_blank">Pedro Giacciani</a></p>

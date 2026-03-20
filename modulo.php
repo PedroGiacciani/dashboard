@@ -52,19 +52,7 @@
 </head>
 <body>
     <div class="sep">
-        <header>
-            <div id="perfil">
-                <img src="https://ui-avatars.com/api/?name=Pedro+Giacciani&background=008080&color=fff" alt="Avatar">
-                <span>Pedro Giacciani</span>
-            </div>
-            <hr>
-            <nav id="links">
-                <a href="dashboard.php">Ínicio</a>
-                <a href="usuarios.php">Usuários</a>
-                <a href="#">Relatórios</a>
-                <a href="#">Configurações</a>
-            </nav>
-        </header>
+        <header><?php include("menu.php");?></header>
         <main>
             <h1>Gestão de usuários</h1>
             <div id="table-container">
@@ -107,10 +95,8 @@
                     </tbody>
                 </table>
             </div>
-                </div>
         </main>
-    <footer>
-        <p>&copy; <?php echo date('Y');?> - Desenvolvido na aula de programação pra web I por <a href="https://github.com/pedrogiacciani" target="_blank">Pedro Giacciani</a></p>
-    </footer>
+    </div>
+    <footer><?php include("rodape.php");?></footer>
 </body>
 </html>
