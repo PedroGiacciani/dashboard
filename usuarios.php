@@ -37,6 +37,12 @@
             text-align: center;
         }
 
+        a{
+            margin: 10px;
+            font-size: 1.5em;
+            color: #2e3e50;
+        }
+
         @media screen and (min-width: 800px) {
             td, th{
                 font-size: 1em;
@@ -78,5 +84,6 @@
             </tbody>
         </table>
     </div>
+    <a href="dashboard.php"><i class="fa-solid fa-circle-left"></i></a>
 </body>
 </html>
