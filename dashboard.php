@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="sep">
+    <div class="sep">
         <header>
             <div id="perfil">
                 <img src="https://ui-avatars.com/api/?name=Pedro+Giacciani&background=008080&color=fff" alt="Avatar">
@@ -16,7 +16,7 @@
             <hr>
             <nav id="links">
                 <a href="#">Ínicio</a>
-                <a href="#">Usuários</a>
+                <a href="usuarios.php">Usuários</a>
                 <a href="#">Relatórios</a>
                 <a href="#">Configurações</a>
             </nav>
@@ -26,7 +26,7 @@
                 <div class="caixa">
                     <h1>Módulo de usuários</h1>
                     <p>Gerencie os acessos e permissões do sistema nessa área</p>
-                    <a href="usuarios.php">Acessar</a>
+                    <a href="modulo.php">Acessar</a>
                 </div>
                 <div class="caixa">
                     <h1>Relatórios de vendas</h1>

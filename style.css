@@ -7,6 +7,10 @@
 
 body{
     background-color: rgb(236, 236, 236);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
 }
 
 header{
@@ -103,9 +107,9 @@ footer > p > a:hover{
         justify-content: space-between;
     }
 
-    div#sep{
+    div.sep{
         display: grid;
-        grid-column: auto auto;
+        grid-template-columns: auto 1fr;
         flex: 1;
     }
 
@@ -120,7 +124,6 @@ footer > p > a:hover{
     main{
         padding-top: 30px;
         grid-column: 2;
-        height: fit-content;
     }
 
     header > div#perfil{
