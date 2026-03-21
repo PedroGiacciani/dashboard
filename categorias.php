@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/52ff4c741b.js" crossorigin="anonymous"></script>
-    <title>Módulo de Usuários</title>
+    <title>Categorias</title>
     <link rel="stylesheet" href="style.css">
     <style>
         *{
@@ -64,47 +64,35 @@
     <div class="sep">
         <header><?php include("menu.php");?></header>
         <main>
-            <h1>Gestão de usuários</h1>
+            <h1>Gestão de categorias</h1>
             <div id="table-container">
                 <table>
                     <thead>
                         <tr>
                             <th>Id</th>
                             <th>Nome</th>
-                            <th>E-mail</th>
-                            <th>Acesso</th>
                             <th>Status</th>
-                            <th>Ações</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td>001</td>
                             <td>Pedro Giacciani</td>
-                            <td>giaccianipedro@gmail.com</td>
-                            <td>Administrador</td>
-                            <td class="badge-inativo">Inativo</td>
-                            <td><button><i class="fa-solid fa-pen"></i></button></td>
+                            <td class="badge-ativo">Ativo</td>
                         </tr>
                         <tr>
                             <td>002</td>
                             <td>Eric Freitas</td>
-                            <td>eric@unifev.edu</td>
-                            <td>Usuário</td>
                             <td class="badge-ativo">Ativo</td>
-                            <td><button><i class="fa-solid fa-pen"></i></button></td>
                         </tr>
                             <td>002</td>
                             <td>Eric Freitas</td>
-                            <td>eric@unifev.edu</td>
-                            <td>Usuário</td>
                             <td class="badge-inativo">Inativo</td>
-                            <td><button><i class="fa-solid fa-pen"></i></button></td>
                         </tr>
                     </tbody>
                     <tfoot>
                         <tr>
-                            <td colspan="6" id="btn-add"><i class="fa-solid fa-plus"></i> <a href="usuarios.php">Adicionar usuário</a></td>
+                            <td colspan="6" id="btn-add"><i class="fa-solid fa-plus"></i> <a href="usuarios.php">Adicionar categoria</a></td>
                         </tr>
                     </tfoot>
                 </table>
@@ -113,4 +101,4 @@
     </div>
     <footer><?php include("rodape.php");?></footer>
 </body>
-</html>
+</html> 

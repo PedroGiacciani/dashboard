@@ -6,6 +6,6 @@
 <nav id="links">
     <a href="dashboard.php">Ínicio</a>
     <a href="usuarios.php">Usuários</a>
-    <a href="#">Relatórios</a>
-    <a href="#">Configurações</a>
+    <a href="categorias.php">Categorias</a>
+    <a href="postagens.php">Postagens</a>
 </nav>

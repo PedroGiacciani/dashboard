@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Adicionar Usuário</title>
     <script src="https://kit.fontawesome.com/52ff4c741b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <style>
@@ -46,6 +46,11 @@
             border-radius: 10px;
             border: 1px solid rgb(144, 150, 156);
             margin: 5px 0px;
+        }
+
+        select{
+            padding: 10px;
+            border-radius: 10px;
         }
         
         .esp-btn{
@@ -92,8 +97,16 @@
                     </div>
                     
                     <div class="space">
+                        <label for="isen">Senha</label>
+                        <input type="password" name="senha" id="isenha" placeholder="Digite sua senha">
+                    </div>
+                    
+                    <div class="space">
                         <label for="inivel">Nível</label>
-                        <input type="text" name="nivel" id="inivel" placeholder="Digite seu nível de acesso">
+                        <select name="nivel" id="inivel">
+                            <option value="user">Usuário</option>
+                            <option value="admin">Administrador</option>
+                        </select>
                     </div>
 
                     <div class="space">
