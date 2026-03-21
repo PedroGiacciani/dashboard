@@ -32,7 +32,10 @@
                             <td>giaccianipedro@gmail.com</td>
                             <td>Administrador</td>
                             <td><mark class="badge inativo">Inativo</mark></td>
-                            <td><button><i class="fa-solid fa-pen"></i></button></td>
+                            <td>
+                                <i class="fa-solid fa-pen"></i>
+                                <i class="fa-solid fa-trash-can"></i>
+                            </td>
                         </tr>
                         <tr>
                             <td>002</td>
@@ -40,14 +43,20 @@
                             <td>eric@unifev.edu</td>
                             <td>Usuário</td>
                             <td><mark class="badge ativo">Ativo</mark></td>
-                            <td><button><i class="fa-solid fa-pen"></i></button></td>
+                            <td>
+                                <i class="fa-solid fa-pen"></i>
+                                <i class="fa-solid fa-trash-can"></i>
+                            </td>
                         </tr>
                             <td>002</td>
                             <td>Eric Freitas</td>
                             <td>eric@unifev.edu</td>
                             <td>Usuário</td>
                             <td><mark class="badge inativo">Inativo</mark></td>
-                            <td><button><i class="fa-solid fa-pen"></i></button></td>
+                            <td>
+                                <i class="fa-solid fa-pen"></i>
+                                <i class="fa-solid fa-trash-can"></i>
+                            </td>
                         </tr>
                     </tbody>
                     <tfoot>

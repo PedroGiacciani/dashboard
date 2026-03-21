@@ -34,7 +34,17 @@ td, th{
     text-align: center;
 }
 
+td i{
+    margin-bottom: 5px;
+    color: rgb(0, 0, 177);
+}
+
 #btn-add{
+    background-color: #2e3e50;
+    color: white;
+}
+
+#btn-add i{
     background-color: #2e3e50;
     color: white;
 }
