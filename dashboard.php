@@ -1,4 +1,4 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt=br">
 <head>
     <meta charset="UTF-8">
@@ -14,7 +14,7 @@
                 <div class="caixa">
                     <h1>Módulo de usuários</h1>
                     <p>Gerencie os acessos e permissões do sistema nessa área</p>
-                    <a href="modulo.php">Acessar</a>
+                    <a href="#">Acessar</a>
                 </div>
                 <div class="caixa">
                     <h1>Relatórios de vendas</h1>

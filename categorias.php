@@ -6,59 +6,7 @@
     <script src="https://kit.fontawesome.com/52ff4c741b.js" crossorigin="anonymous"></script>
     <title>Categorias</title>
     <link rel="stylesheet" href="style.css">
-    <style>
-        *{
-            margin: 0px;
-            padding: 0px;
-        }
-
-        h1{
-            margin: 10px;
-        }
-
-        #table-container{
-            border-radius: 5px;
-            margin: 10px;
-            overflow: hidden;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.219);
-        }
-
-        table{
-            border-collapse: collapse;
-            width: 100%;
-        }
-
-        thead{
-            background-color: #2e3e50;
-            color: white;
-        }
-
-        tr:nth-child(even){
-            background-color: #e6e6e6;
-        }
-
-        td, th{
-            font-size: .8em;
-            padding: 10px;
-            text-align: center;
-        }
-
-        #btn-add{
-            background-color: #2e3e50;
-            color: white;
-        }
-
-        #btn-add a{
-            color: white;
-            text-decoration: none;
-        }
-
-        @media screen and (min-width: 800px) {
-            td, th{
-                font-size: 1em;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="tabelas.css">
 </head>
 <body>
     <div class="sep">
@@ -78,16 +26,16 @@
                         <tr>
                             <td>001</td>
                             <td>Pedro Giacciani</td>
-                            <td class="badge-ativo">Ativo</td>
+                            <td><mark class="badge ativo">Ativo</mark></td>
                         </tr>
                         <tr>
                             <td>002</td>
                             <td>Eric Freitas</td>
-                            <td class="badge-ativo">Ativo</td>
+                            <td><mark class="badge ativo">Ativo</mark></td>
                         </tr>
                             <td>002</td>
                             <td>Eric Freitas</td>
-                            <td class="badge-inativo">Inativo</td>
+                            <td><mark class="badge inativo">Inativo</mark></td>
                         </tr>
                     </tbody>
                     <tfoot>
