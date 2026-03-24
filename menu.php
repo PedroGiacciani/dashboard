@@ -5,7 +5,6 @@
 <hr>
 <nav id="links">
     <a href="dashboard.php">Ínicio</a>
-    <a href="login.php">Login</a>
     <a href="modulo.php">Usuários</a>
     <a href="categorias.php">Categorias</a>
     <a href="postagens.php">Postagens</a>
