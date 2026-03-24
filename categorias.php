@@ -72,11 +72,6 @@
                             <td><mark class="badge inativo">Inativo</mark></td>
                         </tr>
                     </tbody>
-                    <tfoot>
-                        <tr>
-                            <td colspan="6" id="btn-add"><i class="fa-solid fa-plus"></i> <a href="add-categorias.php">Adicionar categoria</a></td>
-                        </tr>
-                    </tfoot>
                 </table>
             </div>
         </main>
