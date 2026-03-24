@@ -6,77 +6,7 @@
     <title>Adicionar Usuário</title>
     <script src="https://kit.fontawesome.com/52ff4c741b.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <style>
-        h1{
-            padding: 20px;
-        }
-
-        main{
-            margin: 20px;
-        }
-        
-        section{
-            background-color: white;
-            margin: auto;
-            max-width: 500px;
-            padding: 10px;
-            border-radius: 15px;
-            color: #2c3e50;
-            box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.219);
-        }
-
-        form{
-            display: flex;
-            flex-direction: column;
-        }
-
-        div.space{
-            display: flex;
-            flex-direction: column;
-            padding: 10px;
-            width: 400px;
-        }
-
-        form label{
-            font-size: 1.5em;
-        }
-
-        form input{
-            padding: 10px;
-            border-radius: 10px;
-            border: 1px solid rgb(144, 150, 156);
-            margin: 5px 0px;
-        }
-
-        select{
-            padding: 10px;
-            border-radius: 10px;
-        }
-        
-        .esp-btn{
-            background-color: #537597;
-            color: white;
-            cursor: pointer;
-        }
-
-        .esp-btn:hover{
-            background-color: #9cb7d1;
-        }
-
-        @media screen and (min-width: 1200px) {
-            main{
-                font-size: 1.3em;
-            }
-
-            section{
-                padding: 30px;
-            }
-
-            div.space{
-                width: 500px;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="form.css">
 </head>
 <body>
     <div class="sep">
