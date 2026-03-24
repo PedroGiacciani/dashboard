@@ -22,7 +22,7 @@
 <body>
     <div class="sep">
         <header>
-            <?php include('menu.php')?>
+            <?php include('menu.php');?>
         </header>
         <main>
             <section class="log">
@@ -43,7 +43,7 @@
         </main>
     </div>
     <footer>
-        <?php include('rodape.php')?>
+        <?php include('rodape.php');?>
     </footer>
 </body>
 </html>

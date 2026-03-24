@@ -48,7 +48,7 @@
                     </tbody>
                     <tfoot>
                         <tr>
-                            <td colspan="6" id="btn-add"><i class="fa-solid fa-plus"></i> <a href="usuarios.php">Adicionar postagem</a></td>
+                            <td colspan="6" id="btn-add"><i class="fa-solid fa-plus"></i> <a href="add-postagens.php">Adicionar postagem</a></td>
                         </tr>
                     </tfoot>
                 </table>
