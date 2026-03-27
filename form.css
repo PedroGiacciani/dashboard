@@ -36,11 +36,15 @@ form label{
     margin: 3px 0px;
 }
 
-form input{
+form input, textarea{
     padding: 10px;
     border-radius: 10px;
     border: 1px solid rgb(144, 150, 156);
     margin: 5px 0px;
+}
+    
+textarea{
+    height: 250px;
 }
 
 select{

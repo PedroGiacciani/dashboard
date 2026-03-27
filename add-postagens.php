@@ -24,23 +24,18 @@
                     </div>
         
                     <div class="space">
-                        <label for="imail">Conteúdo</label>
-                        <input type="text" name="mail" id="imail" placeholder="Sobre o que fala a postagem?">
+                        <label for="icont">Conteúdo</label>
+                        <textarea name="cont" id="icont" placeholder="Sobre o que fala sua postagem??"></textarea>
                     </div>
-        
+
                     <div class="space">
-                        <label for="isen">Senha</label>
-                        <input type="password" name="senha" id="isenha" placeholder="Digite sua senha">
-                    </div>
-        
-                    <div class="space">
-                        <label for="inivel">Qual Categoria?</label>
-                        <select name="nivel" id="inivel">
-                            <option value="user">Categoria 1</option>
-                            <option value="admin">Categoria 2</option>
+                        <label for="istats">Status</label>
+                        <select name="stats" id="istats">
+                            <option>Ativo</option>
+                            <option>Inativo</option>
                         </select>
                     </div>
-                    
+        
                     <div class="space">
                         <input type="submit" value="Salvar" class="esp-btn">
                         <input type="reset" value="Limpar" class="esp-btn">

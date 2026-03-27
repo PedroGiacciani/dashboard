@@ -56,6 +56,7 @@
                             <th>Conteúdo</th>
                             <th>Categoria</th>
                             <th>Status</th>
+                            <th>Ações</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -65,6 +66,10 @@
                             <td>Conteúdo</td>
                             <td>Categoria</td>
                             <td><mark class="badge ativo">Ativo</mark></td>
+                            <td>
+                                <i class="fa-solid fa-pen"></i>
+                                <i class="fa-solid fa-trash-can"></i>
+                            </td>
                         </tr>
                         <tr>
                             <td>002</td>
@@ -72,12 +77,20 @@
                             <td>Conteúdo</td>
                             <td>Categoria</td>
                             <td><mark class="badge ativo">Ativo</mark></td>
+                            <td>
+                                <i class="fa-solid fa-pen"></i>
+                                <i class="fa-solid fa-trash-can"></i>
+                            </td>
                         </tr>
                             <td>002</td>
                             <td>Titulo</td>
                             <td>Conteúdo</td>
                             <td>Categoria</td>
                             <td><mark class="badge inativo">Inativo</mark></td>
+                            <td>
+                                <i class="fa-solid fa-pen"></i>
+                                <i class="fa-solid fa-trash-can"></i>
+                            </td>
                         </tr>
                     </tbody>
                 </table>

@@ -22,24 +22,15 @@
                         <label for="inome">Nome</label>
                         <input type="text" name="nome" id="inome" placeholder="Digite o nome da categoria">
                     </div>
-        
+
                     <div class="space">
-                        <label for="imail">E-mail</label>
-                        <input type="email" name="mail" id="imail" placeholder="Digite o e-mail">
-                    </div>
-        
-                    <div class="space">
-                        <label for="isen">Senha</label>
-                        <input type="password" name="senha" id="isenha" placeholder="Digite sua senha">
-                    </div>
-        
-                    <div class="space">
-                        <label for="inivel">Nível</label>
-                        <select name="nivel" id="inivel">
-                            <option value="user">Usuário</option>
-                            <option value="admin">Administrador</option>
+                        <label for="istats">Status</label>
+                        <select name="stats" id="istats">
+                            <option>Ativo</option>
+                            <option>Inativo</option>
                         </select>
                     </div>
+
                     <div class="space">
                         <input type="submit" value="Salvar" class="esp-btn">
                         <input type="reset" value="Limpar" class="esp-btn">
