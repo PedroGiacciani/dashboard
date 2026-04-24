@@ -42,5 +42,20 @@
     <footer>
         <?php include("rodape.php"); ?>
     </footer>
+    <script>
+        let categorias = prompt("Quantas categorias você quer cadastrar??")
+        let categoriasNum = Number(categorias)
+        for(let i = 1; i <= categoriasNum; i++){
+            let add = prompt(`Qual o nome da categoria ${i}?`)
+            if(add.length == 0){
+                alert("[ERRO] o nome da categoria não pode ser vazio!!")
+                i--
+            } else{
+                console.log(add)
+                console.log("Categoria registrada com sucesso!!")
+            }
+        }
+        window.alert("Prontinho, categorias registradas!! Aperte f12 para conferir")
+    </script>
 </body>
 </html>

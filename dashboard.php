@@ -30,5 +30,13 @@
         </main>
     </div>
    <footer><?php include("rodape.php");?></footer>
+   <!-- <script>
+        let pergunta = window.prompt("Quantos usuários você quer processar agora??")
+        let perguntaValor = Number(pergunta)
+        for(let i = 1; i <= perguntaValor; i++){
+            console.log(`Processando dados do usuário ${i}...`)
+        }
+        alert("Pronto!! Agora acesse o console digitando f12 para ver o resultado")
+   </script> -->
 </body>
 </html>
