@@ -6,6 +6,7 @@
     <title>Login</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="form.css">
+    <script src="https://kit.fontawesome.com/52ff4c741b.js" crossorigin="anonymous"></script>
     <style>
         main{
             height: 100vh;
@@ -21,6 +22,22 @@
         section.log a:hover{
             text-decoration: underline;
         }
+
+        div#olhar{
+            display: flex;
+            flex-direction: row;¨
+            align-items: center;
+        }
+
+        div#olhar > input{
+            flex 1;
+            width: 100%;
+        }
+
+        div#olhar > span{
+            font-size: 2em;
+            padding: 5px;
+        }
     </style>
 </head>
 <body>
@@ -34,7 +51,10 @@
                 </div>
                 <div class="space">
                     <label for="isen">Senha</label>
-                    <input type="password" name="sen" id="isen" placeholder="Digite sua senha">
+                    <div id="olhar">
+                        <input type="password" name="sen" id="isen" placeholder="Digite sua senha">
+                        <span id="btn-olho" style="cursor: pointer;"><i class="fa-solid fa-eye"></i></span>
+                    </div>
                 </div>
                 <div class="space">
                     <input type="submit" value ="Enviar" class="esp-btn">
@@ -51,5 +71,18 @@
     <footer>
         <?php include('rodape.php');?>
     </footer>
+    <script>
+        let botao = document.getElementById('btn-olho')
+        let input = document.getElementById('isen')
+        botao.addEventListener('click', function(){
+            if(input.type == 'password'){
+                input.type = 'text'
+                botao.innerHTML = `<i class="fa-solid fa-arrows-to-eye"></i>`
+            }else{
+                input.type = 'password'
+                botao.innerHTML = `<i class="fa-solid fa-eye"></i>`
+            }
+        })
+    </script>
 </body>
 </html>
