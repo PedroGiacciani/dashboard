@@ -30,7 +30,7 @@
         }
 
         div#olhar > input{
-            flex 1;
+            flex: 1;
             width: 100%;
         }
 
