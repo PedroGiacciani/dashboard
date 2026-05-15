@@ -27,20 +27,20 @@
                     </div>
                     
                     <div class="space">
-                        <label for="isen">Senha</label>
+                        <label for="isenha">Senha</label>
                         <input type="password" name="senha" id="isenha" placeholder="Digite sua senha">
                     </div>
                     
                     <div class="space">
                         <label for="inivel">Nível</label>
                         <select name="nivel" id="inivel">
-                            <option value="user">Usuário</option>
-                            <option value="admin">Administrador</option>
+                            <option value="Usuário">Usuário</option>
+                            <option value="Administrador">Administrador</option>
                         </select>
                     </div>
 
                     <div class="space">
-                        <input type="submit" value="Salvar" class="esp-btn">
+                        <input type="submit" value="Salvar" class="esp-btn" id="btn-salvar">
                         <input type="reset" value="Limpar" class="esp-btn">
                     </div>
                 </form>
@@ -48,5 +48,30 @@
         </main>
     </div>
     <footer><?php include("rodape.php");?></footer>
+    <script>
+        let btnSalvar = document.getElementById('btn-salvar')
+        btnSalvar.addEventListener('click', () =>{
+            let nome = document.getElementById('inome').value
+            let email = document.getElementById('imail').value
+            let senha = document.getElementById('isenha').value
+            let nivel = document.getElementById('inivel').value
+
+            if(nome != '' && email.length != '' && senha.length != ''){
+                const newUser = {
+                    userName: nome,
+                    userEmail: email,
+                    userPass: senha,
+                    userLvl: nivel
+                }
+                
+                let usuarios = JSON.parse(localStorage.getItem('bancoUsuarios')) || []
+                usuarios.push(newUser)
+                localStorage.setItem('bancoUsuarios', JSON.stringify(usuarios))
+                alert("Usuario salvo com sucesso!!")
+            }else{
+                alert("Dados incompletos")
+            }
+        })
+    </script>
 </body>
 </html>
