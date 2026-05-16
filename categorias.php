@@ -101,7 +101,7 @@
             let novoNome = prompt("Qual o novo nome da categoria?")
             let categorias = JSON.parse(localStorage.getItem('bancoCategorias')) 
             categorias[index].catName = novoNome
-            if(confirm("Deseja mudar o status da categoria?")){
+            if(prompt("Deseja mudar o status da categoria?") == 'sim'){
                 if(categorias[index].catStats == 'ativo'){
                     categorias[index].catStats = 'inativo'
                 } else if(categorias[index].catStats == 'inativo'){
